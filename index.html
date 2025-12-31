@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big EZ Detales | Premium Car Detailing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: radial-gradient(circle at top, #0b1d33, #000);
+      color: #e6f1ff;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #4cc9f0;
+      text-shadow: 0 0 15px rgba(76,201,240,0.8);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cfe9ff;
+      margin-top: 10px;
+    }
+
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #0f2a44, #061522);
+      border-radius: 18px;
+      padding: 25px;
+      box-shadow: 0 0 25px rgba(0,170,255,0.25);
+      border: 1px solid rgba(76,201,240,0.35);
+    }
+
+    .card h2 {
+      text-align: center;
+      color: #4cc9f0;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px rgba(76,201,240,0.7);
+    }
+
+    .price {
+      text-align: center;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 10px 0 20px;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .card li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.15);
+      font-size: 0.95rem;
+    }
+
+    .highlight {
+      grid-column: span 2;
+      background: linear-gradient(145deg, #123d66, #061a2b);
+      box-shadow: 0 0 35px rgba(76,201,240,0.6);
+    }
+
+    .cta {
+      text-align: center;
+      margin: 60px 20px;
+      padding: 40px;
+      background: linear-gradient(145deg, #0f2a44, #061522);
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,170,255,0.35);
+    }
+
+    .cta h2 {
+      color: #4cc9f0;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      text-shadow: 0 0 12px rgba(76,201,240,0.8);
+    }
+
+    .cta p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 15px 35px;
+      background: #4cc9f0;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      box-shadow: 0 0 20px rgba(76,201,240,0.9);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #9dcfff;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      .highlight {
+        grid-column: span 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Big EZ Detales</h1>
+  <p>Premium Car Detailing • Showroom Shine</p>
+</header>
+
+<section class="packages">
+  <div class="card">
+    <h2>EZ Wash</h2>
+    <div class="price">$25</div>
+    <ul>
+      <li>Exterior hand wash & dry</li>
+      <li>Wheel cleaning</li>
+      <li>Tire shine</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>EZ Interior</h2>
+    <div class="price">$85</div>
+    <ul>
+      <li>Vacuuming & detailing</li>
+      <li>Leather & cloth seat care</li>
+      <li>UV protection</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>EZ Exterior</h2>
+    <div class="price">$80</div>
+    <ul>
+      <li>Full wash & wax</li>
+      <li>Tire shine & de-ironing</li>
+      <li>Trim restoring & detailing</li>
+    </ul>
+  </div>
+
+  <div class="card highlight">
+    <h2>Full EZ Package</h2>
+    <div class="price">$150</div>
+    <ul>
+      <li>EZ Exterior</li>
+      <li>EZ Interior</li>
+      <li>Complete inside & out detail</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Book Your Detail Today</h2>
+  <p>Call or text now to lock in your shine</p>
+  <a href="tel:2819001146">📞 281‑900‑1146</a>
+</section>
+
+<footer>
+  © 2025 Big EZ Detales • Mobile & Local Service
+</footer>
+
+</body>
+</html>
